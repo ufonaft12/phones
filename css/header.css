@@ -1,0 +1,126 @@
+header .top-line {
+  overflow: hidden;
+  padding: 10px 173px;
+  background-color: #374652; }
+  header .top-line > div {
+    display: inline-block; }
+  header .top-line .search-form {
+    float: left; }
+    header .top-line .search-form .input-group {
+      position: relative; }
+      header .top-line .search-form .input-group input {
+        display: block;
+        width: 185px;
+        background-color: #516473;
+        border: none;
+        color: #fff;
+        -webkit-border-radius: 10em;
+                border-radius: 10em;
+        outline: none;
+        padding: 10px 15px 10px 35px;
+        font-size: 15px; }
+      header .top-line .search-form .input-group span.input-group-btn {
+        position: absolute;
+        left: 8px;
+        bottom: 8px; }
+        header .top-line .search-form .input-group span.input-group-btn .btn-default {
+          background-color: transparent;
+          border: none;
+          outline: none; }
+          header .top-line .search-form .input-group span.input-group-btn .btn-default .fa {
+            color: #fff;
+            font-size: 14px; }
+  header .top-line .social-block {
+    float: right;
+    margin-top: 4px; }
+    header .top-line .social-block ul, header .top-line .social-block li {
+      margin: 0;
+      padding: 0;
+      list-style-type: none; }
+      header .top-line .social-block ul li, header .top-line .social-block li li {
+        display: inline-block; }
+        header .top-line .social-block ul li a, header .top-line .social-block li li a {
+          color: #fff;
+          font-size: 13px;
+          display: block;
+          height: 28px;
+          width: 28px;
+          background-color: #9160f0;
+          opacity: 1;
+          text-align: center;
+          line-height: 28px;
+          margin: 0 3px;
+          -webkit-border-radius: 10em;
+                  border-radius: 10em;
+          -webkit-transition: opacity .25s ease;
+          -o-transition: opacity .25s ease;
+          transition: opacity .25s ease; }
+          header .top-line .social-block ul li a:hover, header .top-line .social-block li li a:hover {
+            opacity: .7; }
+
+header .bottom-line {
+  background-color: #fffefe; }
+  header .bottom-line .container {
+    overflow: hidden; }
+
+header .content {
+  padding: 20px; }
+
+header .col-menu {
+  border-right: 1px solid #f2f1f1; }
+  header .col-menu ul li {
+    position: relative; }
+    header .col-menu ul li:hover {
+      background-color: #9160f0; }
+      header .col-menu ul li:hover a {
+        color: #fff; }
+    header .col-menu ul li a {
+      width: 140px;
+      height: 90px;
+      text-align: center;
+      color: #374652; }
+      header .col-menu ul li a:before {
+        content: '';
+        display: block;
+        height: 40px;
+        width: 40px;
+        margin: auto; }
+    header .col-menu ul li.service-icon a:before {
+      background: url("../img/06_service.svg") no-repeat; }
+    header .col-menu ul li.contact-icon a:before {
+      background: url("../img/05_contact.svg") no-repeat; }
+    header .col-menu ul li.bye-icon a:before {
+      background: url("../img/04_buy.svg") no-repeat; }
+    header .col-menu ul li.repair-icon:active {
+      background-color: #e9edf0; }
+      header .col-menu ul li.repair-icon:active a {
+        color: #374652; }
+      header .col-menu ul li.repair-icon:active:before {
+        content: '';
+        height: 5px;
+        width: 100%;
+        background: -webkit-gradient(linear, left top, right top, from(#bc6de5), to(#9e4cdc));
+        background: -webkit-linear-gradient(left, #bc6de5, #9e4cdc);
+        background: -o-linear-gradient(left, #bc6de5, #9e4cdc);
+        background: linear-gradient(to right, #bc6de5, #9e4cdc);
+        display: block;
+        position: absolute;
+        bottom: 0; }
+    header .col-menu ul li.repair-icon a:before {
+      background: url("../img/03_repair.svg") no-repeat; }
+    header .col-menu ul li.about-icon a:before {
+      background: url("../img/02_about.svg") no-repeat; }
+    header .col-menu ul li.home-icon a:before {
+      background: url("../img/01_home.svg") no-repeat; }
+
+header .col-left {
+  padding: 20px 0;
+  background-color: green; }
+  header .col-left .tel-left {
+    float: left; }
+  header .col-left .tel-right {
+    float: right; }
+
+header .col-logo {
+  margin-left: 40px;
+  margin-top: 23px; }
