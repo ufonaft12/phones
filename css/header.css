@@ -1,45 +1,46 @@
 header .top-line {
   overflow: hidden;
-  padding: 10px 173px;
+  padding: 10px 0;
   background-color: #374652; }
-  header .top-line > div {
-    display: inline-block; }
-  header .top-line .search-form {
+  header .top-line .search-form-wrap {
     float: left; }
-    header .top-line .search-form .input-group {
+    header .top-line .search-form-wrap .input-group {
       position: relative; }
-      header .top-line .search-form .input-group input {
+      header .top-line .search-form-wrap .input-group input {
         display: block;
-        width: 185px;
+        width: 235px;
         background-color: #516473;
         border: none;
         color: #fff;
         -webkit-border-radius: 10em;
                 border-radius: 10em;
         outline: none;
-        padding: 10px 15px 10px 35px;
         font-size: 15px; }
-      header .top-line .search-form .input-group span.input-group-btn {
+      header .top-line .search-form-wrap .input-group span.input-group-btn {
         position: absolute;
-        left: 8px;
-        bottom: 8px; }
-        header .top-line .search-form .input-group span.input-group-btn .btn-default {
+        left: 4px;
+        bottom: 0;
+        z-index: 5; }
+        header .top-line .search-form-wrap .input-group span.input-group-btn .btn-default {
           background-color: transparent;
           border: none;
           outline: none; }
-          header .top-line .search-form .input-group span.input-group-btn .btn-default .fa {
+          header .top-line .search-form-wrap .input-group span.input-group-btn .btn-default .fa {
             color: #fff;
             font-size: 14px; }
   header .top-line .social-block {
     float: right;
-    margin-top: 4px; }
-    header .top-line .social-block ul, header .top-line .social-block li {
+    display: table;
+    height: 100%; }
+    header .top-line .social-block ul {
       margin: 0;
       padding: 0;
-      list-style-type: none; }
-      header .top-line .social-block ul li, header .top-line .social-block li li {
+      list-style-type: none;
+      display: table-cell;
+      vertical-align: middle; }
+      header .top-line .social-block ul li {
         display: inline-block; }
-        header .top-line .social-block ul li a, header .top-line .social-block li li a {
+        header .top-line .social-block ul li a {
           color: #fff;
           font-size: 13px;
           display: block;
@@ -55,72 +56,141 @@ header .top-line {
           -webkit-transition: opacity .25s ease;
           -o-transition: opacity .25s ease;
           transition: opacity .25s ease; }
-          header .top-line .social-block ul li a:hover, header .top-line .social-block li li a:hover {
+          header .top-line .social-block ul li a:hover {
             opacity: .7; }
 
-header .bottom-line {
-  background-color: #fffefe; }
-  header .bottom-line .container {
-    overflow: hidden; }
+header .bottom-line .col-menu {
+  max-width: 840px; }
 
-header .content {
-  padding: 20px; }
+header .bottom-line .col-logo {
+  margin-left: 40px; }
 
-header .col-menu {
-  border-right: 1px solid #f2f1f1; }
-  header .col-menu ul li {
+header .bottom-line .col-right ul.menu-header {
+  position: relative;
+  border-right: 1px solid #f1f3f4; }
+  header .bottom-line .col-right ul.menu-header li {
+    width: 100px;
     position: relative; }
-    header .col-menu ul li:hover {
+    header .bottom-line .col-right ul.menu-header li:hover {
       background-color: #9160f0; }
-      header .col-menu ul li:hover a {
+      header .bottom-line .col-right ul.menu-header li:hover a {
         color: #fff; }
-    header .col-menu ul li a {
-      width: 140px;
-      height: 90px;
-      text-align: center;
-      color: #374652; }
-      header .col-menu ul li a:before {
+    header .bottom-line .col-right ul.menu-header li:active {
+      background-color: #e9edf0; }
+      header .bottom-line .col-right ul.menu-header li:active a {
+        color: #374652; }
+      header .bottom-line .col-right ul.menu-header li:active:before {
         content: '';
         display: block;
-        height: 40px;
-        width: 40px;
-        margin: auto; }
-    header .col-menu ul li.service-icon a:before {
-      background: url("../img/06_service.svg") no-repeat; }
-    header .col-menu ul li.contact-icon a:before {
-      background: url("../img/05_contact.svg") no-repeat; }
-    header .col-menu ul li.bye-icon a:before {
-      background: url("../img/04_buy.svg") no-repeat; }
-    header .col-menu ul li.repair-icon:active {
-      background-color: #e9edf0; }
-      header .col-menu ul li.repair-icon:active a {
-        color: #374652; }
-      header .col-menu ul li.repair-icon:active:before {
-        content: '';
-        height: 5px;
+        height: 3px;
         width: 100%;
         background: -webkit-gradient(linear, left top, right top, from(#bc6de5), to(#9e4cdc));
         background: -webkit-linear-gradient(left, #bc6de5, #9e4cdc);
         background: -o-linear-gradient(left, #bc6de5, #9e4cdc);
         background: linear-gradient(to right, #bc6de5, #9e4cdc);
-        display: block;
         position: absolute;
         bottom: 0; }
-    header .col-menu ul li.repair-icon a:before {
-      background: url("../img/03_repair.svg") no-repeat; }
-    header .col-menu ul li.about-icon a:before {
-      background: url("../img/02_about.svg") no-repeat; }
-    header .col-menu ul li.home-icon a:before {
-      background: url("../img/01_home.svg") no-repeat; }
+    header .bottom-line .col-right ul.menu-header li a {
+      text-align: center;
+      color: #374652;
+      vertical-align: bottom;
+      padding-bottom: 7px; }
+    header .bottom-line .col-right ul.menu-header li.menu-item-has-children ul li {
+      width: auto; }
 
-header .col-left {
-  padding: 20px 0;
-  background-color: green; }
-  header .col-left .tel-left {
-    float: left; }
-  header .col-left .tel-right {
+header .bottom-line .col-left {
+  text-align: right; }
+  header .bottom-line .col-left .tel-wrap {
+    padding: 10px 15px; }
+    header .bottom-line .col-left .tel-wrap a {
+      text-decoration: none;
+      font-size: 26px;
+      font-weight: bold; }
+  header .bottom-line .col-left .left-block {
+    float: left;
+    border-right: 1px solid #f1f3f4; }
+    header .bottom-line .col-left .left-block .tel-top {
+      display: block;
+      position: relative;
+      padding-right: 30px;
+      color: #374652;
+      font-size: 16px; }
+      header .bottom-line .col-left .left-block .tel-top:before {
+        content: '';
+        display: inline-block;
+        background-image: url("../img/phone_call.png");
+        background-repeat: no-repeat;
+        width: 22px;
+        height: 22px;
+        position: absolute;
+        top: 1px;
+        right: 0; }
+    header .bottom-line .col-left .left-block a {
+      color: #374652; }
+  header .bottom-line .col-left .right-block {
     float: right; }
+    header .bottom-line .col-left .right-block .tel-top {
+      display: block;
+      position: relative;
+      padding-right: 30px; }
+      header .bottom-line .col-left .right-block .tel-top:before {
+        content: '';
+        display: inline-block;
+        background-image: url("../img/whats_app.png");
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 1px;
+        right: 0; }
+    header .bottom-line .col-left .right-block a {
+      color: #f84cb6; }
 
-header .col-logo {
-  margin-left: 40px;
-  margin-top: 23px; }
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  footer .widget {
+    max-width: 18.666667%;
+    float: right; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  footer .widget {
+    max-width: 50%;
+    float: right; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  footer .widget {
+    max-width: 100%; }
+  footer .container-fluid .footer-bottom-line .footer-column, footer .container-fluid .footer-bottom-line p {
+    text-align: center; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }

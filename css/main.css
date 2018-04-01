@@ -91,7 +91,7 @@ section, div {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1553px;
 }
 
 input::-webkit-input-placeholder {
@@ -146,7 +146,7 @@ header > .container > .row {
 }
 
 header .col-logo {
-	
+	height: 100%;
 }
 
 header .col-logo img {
@@ -169,7 +169,7 @@ header .col-menu ul li {
 	float: right;
 	height: 100%;
 	display: table;
-	position: relative;
+	/*position: relative;*/
 }
 
 header .col-menu ul li a {

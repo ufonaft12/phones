@@ -49,11 +49,15 @@ body {
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
-  /**/ }
+  footer .widget {
+    max-width: 18.666667%;
+    float: right; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  /**/ }
+  footer .widget {
+    max-width: 50%;
+    float: right; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -61,7 +65,10 @@ body {
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  /**/ }
+  footer .widget {
+    max-width: 100%; }
+  footer .container-fluid .footer-bottom-line .footer-column, footer .container-fluid .footer-bottom-line p {
+    text-align: center; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
