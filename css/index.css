@@ -1,0 +1,88 @@
+.button {
+  display: inline-block;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  background-color: #9160f0;
+  padding: 15px 45px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  text-align: center;
+  position: relative;
+  outline: none;
+  -webkit-transition: background-color .1s ease;
+  -o-transition: background-color .1s ease;
+  transition: background-color .1s ease;
+  cursor: pointer; }
+  .button::after {
+    -webkit-transition: background-color .2s ease;
+    -o-transition: background-color .2s ease;
+    transition: background-color .2s ease;
+    position: absolute;
+    content: '';
+    height: 4px;
+    bottom: 0;
+    width: 100%;
+    background-color: #1e074a;
+    opacity: .18;
+    -webkit-border-bottom-left-radius: 2px;
+            border-bottom-left-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+            border-bottom-right-radius: 2px;
+    left: 0; }
+  .button:focus, .button:hover {
+    text-decoration: none;
+    color: #fff; }
+  .button:hover {
+    background-color: #a177f2; }
+    .button:hover::after {
+      opacity: .22; }
+  .button:active {
+    background-color: #8149ee; }
+    .button:active::after {
+      opacity: .32; }
+
+.section-main {
+  margin: 100px 0; }
+  .section-main .banner-wrap {
+    min-height: 448px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    top: 0; }
+    .section-main .banner-wrap .container {
+      margin: auto; }
+      .section-main .banner-wrap .container .banner-block {
+        text-align: right; }
+  .section-main .brand-wrap {
+    background-color: #e9edf0; }
+    .section-main .brand-wrap .brand-block ul li {
+      width: 20px;
+      height: 20px; }
+  .section-main .carousel-mobile .mobilecarousel-item {
+    min-height: 320px; }
+  .section-main .double-section {
+    overflow: hidden; }
+    .section-main .double-section .left-block {
+      min-height: 550px;
+      max-width: 50%;
+      width: 100%;
+      float: left;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      .section-main .double-section .left-block .carousel-reviews {
+        min-height: 365px;
+        max-width: 695px;
+        -webkit-background-size: auto auto;
+                background-size: auto;
+        margin: auto; }
+        .section-main .double-section .left-block .carousel-reviews .carousel-reviews-item {
+          padding: 10px; }

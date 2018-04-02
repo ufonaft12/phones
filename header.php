@@ -13,10 +13,13 @@ function get_header($page_type) { ?>
 	
 	<!--STANDART-->
 	<link rel='stylesheet' id='bootstrap4-css'  href='inc/css/bootstrap.min.css?ver=4.0.0' type='text/css' media='all' />
+    <link rel='stylesheet'  href='inc/css/owl.carousel.min.css' type='text/css' media='all' />
+    <link rel='stylesheet'  href='inc/css/owl.theme.default.min.css' type='text/css' media='all' />
 	<script type='text/javascript' src='/inc/js/jquery.js?ver=1.12.4'></script>
 	<script type='text/javascript' src='/inc/js/jquery-migrate.min.js?ver=1.4.1'></script>
 	<script type='text/javascript' src='/inc/js/bootstrap.min.js?ver=4.0.0'></script>
-	
+    <script type='text/javascript' src='/inc/js/owl.carousel.min.js'></script>
+
 	<!--FONTS-->
 	<link rel='stylesheet' id='fontawesome-css'  href='inc/css/fontawesome-all.min.css?ver=5.0.7' type='text/css' media='all' />
 	<link rel='stylesheet' id='linearicons-css'  href='/css/linearicons-free.min.css?ver=1.0.0' type='text/css' media='all' />

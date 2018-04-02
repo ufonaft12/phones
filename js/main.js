@@ -31,4 +31,27 @@ jQuery(document).ready(function($){
 			$('body').toggleClass('menu-active');
 		});
 	}
+
+    $('.carousel-mobile').owlCarousel({
+        loop: false,
+        nav: true,
+        smartSpeed: 700,
+        navText: ['<i class="fas fa-chevron-right"></i>', '<i class="fas fa-chevron-right"></i>'],
+		responsiveClass: true,
+		responsive: {
+        	0: {
+        		items: 1
+			},
+			800: {
+        		items: 2
+			}
+		}
+    });
+
+    // $('').owlCarousel({
+    //     loop: true,
+    //     nav: true,
+    //     smartSpeed: 700,
+    //     navText: ['<i class="fas fa-chevron-right"></i>', '<i class="fas fa-chevron-right"></i>']
+    // });
 });
