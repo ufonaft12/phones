@@ -22,7 +22,7 @@ function get_header($page_type) { ?>
 
 	<!--FONTS-->
 	<link rel='stylesheet' id='fontawesome-css'  href='inc/css/fontawesome-all.min.css?ver=5.0.7' type='text/css' media='all' />
-	<link rel='stylesheet' id='linearicons-css'  href='/css/linearicons-free.min.css?ver=1.0.0' type='text/css' media='all' />
+<!--	<link rel='stylesheet' id='linearicons-css'  href='/css/linearicons-free.min.css?ver=1.0.0' type='text/css' media='all' />-->
 	<link rel='stylesheet' id='almoni-dl-aaa-css'  href='/inc/css/almoni-dl-aaa.min.css?ver=1.0.0' type='text/css' media='all' />
 	<link rel='stylesheet' id='montserrat-css'  href='/inc/css/montserrat.min.css?ver=1.0.0' type='text/css' media='all' />
 	<link rel='stylesheet' id='opensanshebrew-css'  href='/inc/css/opensanshebrew.min.css?ver=1.0.0' type='text/css' media='all' />
@@ -66,11 +66,11 @@ function get_header($page_type) { ?>
 		<div class="container bottom-line">
 			<div class="row">
 				<div class="col-md-12">
-<!--                    <a class="mobile-menu-btn" href="#menu">-->
-<!--                        <span></span>-->
-<!--                        <span></span>-->
-<!--                        <span></span>-->
-<!--                    </a>-->
+                    <a class="mobile-menu-btn" href="#menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
                     <div class="col-logo col-right col-table">
                         <a class="vertical-center" href="/" alt="">
                             <img src="img/logo.png" alt="logo" title="logo">
