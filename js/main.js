@@ -32,22 +32,25 @@ jQuery(document).ready(function($){
 		});
 	}
 
+    $(".tab_item").not(":first").hide();
+    $(".carousel-wrap-mobile .tab").click(function() {
+        $(".carousel-wrap-mobile .tab").removeClass("active").eq($(this).index()).addClass("active");
+        $(".tab_item").hide().eq($(this).index()).fadeIn()
+    }).eq(0).addClass("active");
+
     $('.carousel-mobile').owlCarousel({
 		rtl: true,
 		items: 5,
         loop: true,
 		autoplay: true,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 7000,
         nav: true,
 		dots: false,
         smartSpeed: 700,
-        navText: ['<span class="btn-text">קטלוג מוצרים</span><span class="lnr lnr-chevron-right"></span>', '<span class="lnr lnr-chevron-left"></span>'],
+        navText: ['<span class="lnr lnr-chevron-left"></span>', '<span class="btn-text">קטלוג מוצרים</span><span class="lnr lnr-chevron-right"></span>'],
 		responsiveClass: true,
 		responsive: {
 		    0: {
-		        items: 1
-            },
-			768: {
 		        items: 2
             },
             1200: {
@@ -66,23 +69,11 @@ jQuery(document).ready(function($){
         nav: false,
         dots: true,
         autoplay: true,
-        autoplayTimeout: 7000,
+        autoplayTimeout: 10000,
         smartSpeed: 700
-        // navText: ['קטלוג מוצרים <i class="fas fa-chevron-right"></i>', '<i class="fas fa-chevron-left"></i>'],
-        // responsiveClass: true,
-        // responsive: {
-        //     0: {
-        //         items: 1
-        //     },
-        //     768: {
-        //         items: 2
-        //     },
-        //     1200: {
-        //         items: 4
-        //     },
-        //     1450: {
-        //         items: 5
-        //     }
-        // }
     });
+
+    $('.top').click(function () {
+		$('html, body').stop().animate({scrollTop: 0}, 'slow');
+    })
 });

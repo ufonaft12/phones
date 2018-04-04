@@ -1,116 +1,156 @@
-footer .widget {
-  display: inline-block;
-  max-width: 19.666667%;
-  width: 100%;
-  text-align: right;
-  vertical-align: top;
-  padding: 0 18px;
-  margin-bottom: 15px;
-  margin-top: 40px; }
-  footer .widget h2 {
+footer {
+  border-top: 5px solid #a656e0; }
+  footer .container-fluid {
+    padding: 0; }
+  footer .widget {
     display: inline-block;
-    margin: 0;
-    padding-bottom: 16px;
-    color: #374652;
-    font-weight: bold;
-    font-size: 22px;
-    position: relative; }
-    footer .widget h2:after {
-      content: '';
-      display: block;
-      height: 1px;
-      width: 50px;
-      background-color: #9160f0;
-      z-index: 5;
-      position: absolute;
-      bottom: 0; }
-  footer .widget ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    position: relative;
-    padding-top: 20px; }
-    footer .widget ul:before {
-      content: '';
-      display: block;
-      height: 1px;
-      width: 100%;
-      background-color: #d4dade;
-      position: absolute;
-      top: -1px;
-      z-index: -1; }
-    footer .widget ul li {
-      line-height: 24px; }
-      footer .widget ul li a {
-        font-size: 16px;
-        color: #374652;
-        text-decoration: none; }
-  footer .widget.widget_contacts .menu li {
-    margin-bottom: 15px; }
-    footer .widget.widget_contacts .menu li span {
-      position: relative;
-      display: block;
-      padding-right: 40px;
-      color: #374652;
-      font-size: 15px; }
-      footer .widget.widget_contacts .menu li span:before {
-        content: '';
-        display: inline-block;
-        height: 28px;
-        width: 28px;
-        position: absolute;
-        right: 0;
-        top: -2px; }
-  footer .widget.widget_contacts .menu .phone_footer span:before {
-    background: url("../img/phone_footer.png") no-repeat; }
-  footer .widget.widget_contacts .menu .mail_footer a span:before {
-    background: url("../img/mail_footer.png") no-repeat; }
-  footer .widget.widget_contacts .menu .whatsapp span:before {
-    background: url("../img/whats_app.png") no-repeat; }
-  footer .widget.widget_contacts .menu .map_footer span:before {
-    background: url("../img/map_footer.png") no-repeat; }
-  footer .widget.widget_contacts .menu .clock_footer span:last-child:before {
-    content: none; }
-  footer .widget.widget_contacts .menu .clock_footer span:before {
-    background: url("../img/clock_footer.png") no-repeat; }
-
-footer .payment-footer {
-  margin-top: 50px;
-  margin-bottom: 20px; }
-  footer .payment-footer .payment-title {
-    margin-bottom: 10px; }
-    footer .payment-footer .payment-title h3 {
-      text-align: center;
-      font-size: 16px;
-      color: #9160f0;
+    max-width: 19.666667%;
+    width: 100%;
+    text-align: right;
+    vertical-align: top;
+    padding: 0 18px;
+    margin-bottom: 15px;
+    margin-top: 40px; }
+    footer .widget h2 {
+      display: inline-block;
       margin: 0;
-      font-weight: bold; }
-  footer .payment-footer .payment img {
-    display: block;
-    margin: auto; }
-
-footer .container-fluid {
-  padding: 0;
-  border-top: 1px solid #d4dade; }
-  footer .container-fluid .footer-bottom-line .footer-column {
-    margin: 15px 10px; }
-    footer .container-fluid .footer-bottom-line .footer-column ul {
+      padding-bottom: 16px;
+      color: #374652;
+      font-weight: bold;
+      font-size: 22px;
+      position: relative; }
+      footer .widget h2:after {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 50px;
+        background-color: #9160f0;
+        z-index: 5;
+        position: absolute;
+        bottom: 0; }
+    footer .widget ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      position: relative;
+      padding-top: 20px; }
+      footer .widget ul:before {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 100%;
+        background-color: #d4dade;
+        position: absolute;
+        top: -1px;
+        z-index: -1; }
+      footer .widget ul li {
+        line-height: 24px; }
+        footer .widget ul li a {
+          font-size: 16px;
+          color: #374652;
+          text-decoration: none; }
+    footer .widget.widget_contacts .menu li {
+      margin-bottom: 15px; }
+      footer .widget.widget_contacts .menu li span {
+        position: relative;
+        display: block;
+        padding-right: 40px;
+        color: #374652;
+        font-size: 15px; }
+        footer .widget.widget_contacts .menu li span:before {
+          content: '';
+          display: inline-block;
+          height: 28px;
+          width: 28px;
+          position: absolute;
+          right: 0;
+          top: -2px; }
+    footer .widget.widget_contacts .menu .phone_footer span:before {
+      background: url("../img/phone_footer.png") no-repeat; }
+    footer .widget.widget_contacts .menu .mail_footer a span:before {
+      background: url("../img/mail_footer.png") no-repeat; }
+    footer .widget.widget_contacts .menu .whatsapp span:before {
+      background: url("../img/whatsapp.png") no-repeat; }
+    footer .widget.widget_contacts .menu .map_footer span:before {
+      background: url("../img/map_footer.png") no-repeat; }
+    footer .widget.widget_contacts .menu .clock_footer span:last-child:before {
+      content: none; }
+    footer .widget.widget_contacts .menu .clock_footer span:before {
+      background: url("../img/clock_footer.png") no-repeat; }
+  footer .payment-footer {
+    margin-top: 50px;
+    margin-bottom: 20px; }
+    footer .payment-footer .payment-title {
+      margin-bottom: 10px; }
+      footer .payment-footer .payment-title h3 {
+        text-align: center;
+        font-size: 16px;
+        color: #9160f0;
+        margin: 0;
+        font-weight: bold; }
+    footer .payment-footer .payment img {
+      display: block;
+      margin: auto; }
+    footer .payment-footer ul {
+      display: none;
       margin: 0;
       padding: 0;
       list-style-type: none;
       text-align: center; }
-      footer .container-fluid .footer-bottom-line .footer-column ul li {
+      footer .payment-footer ul li {
         display: inline-block; }
-        footer .container-fluid .footer-bottom-line .footer-column ul li:before {
+        footer .payment-footer ul li a {
+          color: #374652;
+          text-decoration: none; }
+        footer .payment-footer ul li:before {
           content: '|';
           padding: 0 4px; }
-        footer .container-fluid .footer-bottom-line .footer-column ul li:first-child:before {
+        footer .payment-footer ul li:first-child:before {
           content: none; }
-    footer .container-fluid .footer-bottom-line .footer-column a {
-      color: #374652;
-      text-decoration: none; }
-    footer .container-fluid .footer-bottom-line .footer-column p {
-      color: #374652; }
-    footer .container-fluid .footer-bottom-line .footer-column img {
-      width: 80px;
-      height: auto; }
+  footer .bottom-line {
+    border-top: 1px solid #d4dade; }
+    footer .bottom-line .footer-column {
+      margin: 15px 10px; }
+      footer .bottom-line .footer-column ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-align: center; }
+        footer .bottom-line .footer-column ul li {
+          display: inline-block; }
+          footer .bottom-line .footer-column ul li:before {
+            content: '|';
+            padding: 0 4px; }
+          footer .bottom-line .footer-column ul li:first-child:before {
+            content: none; }
+      footer .bottom-line .footer-column a {
+        color: #374652;
+        text-decoration: none; }
+      footer .bottom-line .footer-column p {
+        color: #374652;
+        margin: 0; }
+      footer .bottom-line .footer-column img {
+        width: 80px;
+        height: auto; }
+
+.top {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: -webkit-gradient(linear, left top, right top, from(#bc6de5), to(#9e4cdc));
+  background: -webkit-linear-gradient(left, #bc6de5, #9e4cdc);
+  background: -o-linear-gradient(left, #bc6de5, #9e4cdc);
+  background: linear-gradient(to right, #bc6de5, #9e4cdc);
+  z-index: 12;
+  -webkit-border-radius: 10em;
+          border-radius: 10em;
+  color: #fff;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease; }

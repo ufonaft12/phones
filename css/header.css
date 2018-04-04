@@ -673,8 +673,10 @@ header .bottom-line .col-left {
         display: inline-block;
         background-image: url("../img/whats_app.png");
         background-repeat: no-repeat;
-        width: 20px;
-        height: 20px;
+        width: 22px;
+        height: 22px;
+        -webkit-background-size: cover;
+                background-size: cover;
         position: absolute;
         top: 1px;
         right: 0; }

@@ -6,7 +6,7 @@ get_header("front-page"); ?>
     <div class="banner-wrap" style="background-image: url('img/main_banner.jpg')">
         <div class="container">
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-lg-7 col-md-12">
                     <div class="banner-block">
                         <h1>מעבדה מתקדמת </h1>
                         <h2>למכירה ותיקון מכשירים סלולריים</h2>
@@ -26,7 +26,7 @@ get_header("front-page"); ?>
     <div class="container-fluid brand-wrap">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 d-none d-sm-block">
+                <div class="col-md-12">
                     <div class="brand-block">
                         <ul>
                             <li>
@@ -77,15 +77,14 @@ get_header("front-page"); ?>
             </div>
         </div>
     </div>
-    <div class="carousel-wrap">
-        <div class="container">
-            <div class="carousel-top">
-                <ul>
-                    <li>
-                        <a href="">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                 viewBox="0 0 47 47" style="enable-background:new 0 0 47 47;" xml:space="preserve">
+    <div class="carousel-wrap-mobile">
+        <div class="tabs">
+            <ul>
+                <li class="tab">
+                            <span>
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                     viewBox="0 0 47 47" style="enable-background:new 0 0 47 47;" xml:space="preserve">
                                 <g>
                                     <path d="M46,41.8V38h0V6.3C46,4.5,44.5,3,42.7,3H25.5c-1.4,0-2.7,0.9-3.1,2.3C21.6,5,20.7,4.9,19.8,5c-1.4,0.2-2.2,0.6-2.8,1.4
                                         l-0.3-0.3l-0.8,0.8l2,2l0.8-0.8l-0.9-0.9c0.4-0.6,0.9-1,2.2-1.1c0.9-0.1,1.7,0,2.4,0.3V38h0v3.7c0,0.9,0.4,1.7,1,2.3
@@ -109,13 +108,13 @@ get_header("front-page"); ?>
                                 </g>
                             </svg>
                             <span>מבצעים_חמים</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                 viewBox="0 0 47 47" style="enable-background:new 0 0 47 47;" xml:space="preserve">
+                            </span>
+                </li>
+                <li class="tab">
+                            <span>
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                     viewBox="0 0 47 47" style="enable-background:new 0 0 47 47;" xml:space="preserve">
                                 <g>
                                     <path d="M36,41.7v-3.7h0V6.6c0-1.8-1.4-3.2-3.2-3.2h-17c-1.8,0-3.2,1.4-3.2,3.2v31.4h0v3.7c0,0.9,0.4,1.7,0.9,2.3
                                         c0.6,0.6,1.4,0.9,2.3,0.9h17c0.9,0,1.7-0.4,2.3-0.9c0,0,0.1-0.1,0.1-0.1c0,0,0.1-0.1,0.1-0.1C35.7,43.2,36,42.5,36,41.7z
@@ -144,13 +143,13 @@ get_header("front-page"); ?>
                                 </g>
                             </svg>
                             <span>נמכרים</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                 viewBox="0 0 47 47" style="enable-background:new 0 0 47 47;" xml:space="preserve">
+                            </span>
+                </li>
+                <li class="tab">
+                            <span>
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                     viewBox="0 0 47 47" style="enable-background:new 0 0 47 47;" xml:space="preserve">
                                 <g>
                                     <path d="M39.1,19.4l1.5-2.8l-2.4-2.2l0.4-3.2l-3-1.2L35,6.9l-3.2-0.1L30,4L27,5l-2.5-2l-2.5,2l-3.1-1l-1.7,2.7l-3.2,0.1L13.2,10
                                         l-3,1.2l0.4,3.2l-2.4,2.2l1.5,2.8l-1.5,2.8l2.4,2.2l-0.4,3.2l3,1.2l0.7,3.2l3,0.1v10.8c0,0.2,0.1,0.4,0.3,0.5s0.4,0.1,0.6,0
@@ -165,132 +164,350 @@ get_header("front-page"); ?>
                                 </g>
                                 <g>
                                     <path d="M13.9,22.7c0,0-0.1-0.1-0.1-0.2v-1.3c0-0.1,0-0.1,0.1-0.2c0,0,0.1-0.1,0.2-0.1h1.3c0.1,0,0.1,0,0.2,0.1
-                                c0,0,0.1,0.1,0.1,0.2v1.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1h-1.3C14,22.8,14,22.8,13.9,22.7z M14,20.5c0,0-0.1-0.1-0.1-0.2
-                                v-4.2c0-0.1,0-0.1,0.1-0.2c0,0,0.1-0.1,0.2-0.1h1.2c0.1,0,0.1,0,0.2,0.1c0,0,0.1,0.1,0.1,0.2v4.2c0,0.1,0,0.1-0.1,0.2
-                                c0,0-0.1,0.1-0.2,0.1h-1.2C14.1,20.6,14,20.6,14,20.5z"/>
+                            c0,0,0.1,0.1,0.1,0.2v1.3c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1h-1.3C14,22.8,14,22.8,13.9,22.7z M14,20.5c0,0-0.1-0.1-0.1-0.2
+                            v-4.2c0-0.1,0-0.1,0.1-0.2c0,0,0.1-0.1,0.2-0.1h1.2c0.1,0,0.1,0,0.2,0.1c0,0,0.1,0.1,0.1,0.2v4.2c0,0.1,0,0.1-0.1,0.2
+                            c0,0-0.1,0.1-0.2,0.1h-1.2C14.1,20.6,14,20.6,14,20.5z"/>
                                     <path d="M23.1,17.3c0,0,0.1,0.1,0.1,0.2V20c0,0.6-0.1,1.1-0.4,1.5c-0.3,0.4-0.6,0.8-1.1,1c-0.5,0.2-1,0.4-1.5,0.3h-0.9
-                                c-0.5,0-1-0.1-1.4-0.3c-0.4-0.2-0.7-0.5-0.9-0.8c-0.2-0.3-0.3-0.7-0.3-1.2v-3.2c0-0.1,0-0.1,0.1-0.2c0,0,0.1-0.1,0.2-0.1h1
-                                c0.1,0,0.1,0,0.2,0.1c0,0,0.1,0.1,0.1,0.2l0,2.4c0.4,0,0.6-0.2,0.7-0.4c0.1-0.2,0.2-0.6,0.2-1v-0.9c0-0.1,0-0.1,0.1-0.2
-                                c0,0,0.1-0.1,0.2-0.1h1c0.1,0,0.1,0,0.2,0.1c0,0.1,0.1,0.1,0.1,0.2v0.9c0,0.7-0.2,1.3-0.6,1.8c-0.4,0.4-0.9,0.7-1.6,0.8
-                                c0.1,0.2,0.3,0.4,0.5,0.5c0.2,0.1,0.4,0.2,0.7,0.2h0.2c0.3,0,0.6-0.1,0.9-0.2c0.3-0.1,0.5-0.3,0.6-0.6c0.2-0.2,0.2-0.5,0.2-0.8
-                                v-2.5c0-0.1,0-0.1,0.1-0.2c0,0,0.1-0.1,0.2-0.1h1C23,17.2,23.1,17.2,23.1,17.3z"/>
+                            c-0.5,0-1-0.1-1.4-0.3c-0.4-0.2-0.7-0.5-0.9-0.8c-0.2-0.3-0.3-0.7-0.3-1.2v-3.2c0-0.1,0-0.1,0.1-0.2c0,0,0.1-0.1,0.2-0.1h1
+                            c0.1,0,0.1,0,0.2,0.1c0,0,0.1,0.1,0.1,0.2l0,2.4c0.4,0,0.6-0.2,0.7-0.4c0.1-0.2,0.2-0.6,0.2-1v-0.9c0-0.1,0-0.1,0.1-0.2
+                            c0,0,0.1-0.1,0.2-0.1h1c0.1,0,0.1,0,0.2,0.1c0,0.1,0.1,0.1,0.1,0.2v0.9c0,0.7-0.2,1.3-0.6,1.8c-0.4,0.4-0.9,0.7-1.6,0.8
+                            c0.1,0.2,0.3,0.4,0.5,0.5c0.2,0.1,0.4,0.2,0.7,0.2h0.2c0.3,0,0.6-0.1,0.9-0.2c0.3-0.1,0.5-0.3,0.6-0.6c0.2-0.2,0.2-0.5,0.2-0.8
+                            v-2.5c0-0.1,0-0.1,0.1-0.2c0,0,0.1-0.1,0.2-0.1h1C23,17.2,23.1,17.2,23.1,17.3z"/>
                                     <path d="M28.7,17.3c0,0,0.1,0.1,0.1,0.2v0.8c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1h-0.5C28,18.7,28,18.8,27.9,19
-                                c0,0.2-0.1,0.4-0.1,0.7v2.9c0,0.1,0,0.1-0.1,0.2c-0.1,0-0.1,0.1-0.2,0.1h-1.2c-0.1,0-0.1,0-0.2-0.1c0,0-0.1-0.1-0.1-0.2v-3
-                                c0-0.5,0.1-0.9,0.2-1.1h-2.2c-0.1,0-0.1,0-0.2-0.1c0,0-0.1-0.1-0.1-0.2v-0.8c0-0.1,0-0.1,0.1-0.2c0,0,0.1-0.1,0.2-0.1h4.4
-                                C28.6,17.2,28.7,17.2,28.7,17.3z"/>
+                            c0,0.2-0.1,0.4-0.1,0.7v2.9c0,0.1,0,0.1-0.1,0.2c-0.1,0-0.1,0.1-0.2,0.1h-1.2c-0.1,0-0.1,0-0.2-0.1c0,0-0.1-0.1-0.1-0.2v-3
+                            c0-0.5,0.1-0.9,0.2-1.1h-2.2c-0.1,0-0.1,0-0.2-0.1c0,0-0.1-0.1-0.1-0.2v-0.8c0-0.1,0-0.1,0.1-0.2c0,0,0.1-0.1,0.2-0.1h4.4
+                            C28.6,17.2,28.7,17.2,28.7,17.3z"/>
                                     <path d="M29.8,22.7c0,0-0.1-0.1-0.1-0.2v-5.1c0-0.1,0-0.1,0.1-0.2c0,0,0.1-0.1,0.2-0.1h2.3c0.9,0,1.6,0.2,2.1,0.6
-                                c0.4,0.4,0.7,1,0.7,1.9v2.9c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1h-1.2c-0.1,0-0.1,0-0.2-0.1c0,0-0.1-0.1-0.1-0.2v-2.9
-                                c0-0.7-0.4-1.1-1.1-1.1h-0.9v4c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1h-1.2C29.9,22.8,29.8,22.8,29.8,22.7z"/>
+                            c0.4,0.4,0.7,1,0.7,1.9v2.9c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1h-1.2c-0.1,0-0.1,0-0.2-0.1c0,0-0.1-0.1-0.1-0.2v-2.9
+                            c0-0.7-0.4-1.1-1.1-1.1h-0.9v4c0,0.1,0,0.1-0.1,0.2c0,0-0.1,0.1-0.2,0.1h-1.2C29.9,22.8,29.8,22.8,29.8,22.7z"/>
                                 </g>
-                            </svg>
+                                </svg>
                             <span>חדשים</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="owl-carousel carousel-mobile">
-                <div class="carousel-mobile-item">
-                    <div class="carousel-image" style="background-image: url('img/phone.png')">
-                        <div class="label-image1" style="background-image: url('img/label1.png')"></div>
-                        <div class="label-image2" style="background-image: url('img/label2.png')"></div>
+                            </span>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="carousel-tabs-wrapper">
+                <div class="tab-content">
+                    <div class="tab_item owl-carousel carousel-mobile">
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image" style="background-image: url('img/phone.png')">
+                                <div class="label-image1" style="background-image: url('img/label1.png')"></div>
+                                <div class="label-image2" style="background-image: url('img/label2.png')"></div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image sale" style="background-image: url('img/phone2.png')">
+                                <div class="phone-sale" style="background-image: url('img/ribbon.png')">
+                                    <span>25% הנחה</span>
+                                </div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>טלפון סלולרי Samsung Galaxy S8 SM-G950F 64GB</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image sale" style="background-image: url('img/phone.png')">
+                                <div class="phone-sale" style="background-image: url('img/ribbon.png')">
+                                    <span>25% הנחה</span>
+                                </div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>טלפון סלולרי Samsung Galaxy J7 2016 SM-J710F</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image" style="background-image: url('img/phone.png')">
+                                <div class="label-image1" style="background-image: url('img/label1.png')"></div>
+                                <div class="label-image2" style="background-image: url('img/label2.png')"></div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image" style="background-image: url('img/phone.png')">
+                                <div class="label-image1" style="background-image: url('img/label1.png')"></div>
+                                <div class="label-image2" style="background-image: url('img/label2.png')"></div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image sale" style="background-image: url('img/phone.png')">
+                                <div class="phone-sale" style="background-image: url('img/ribbon.png')">
+                                    <span>25% הנחה</span>
+                                </div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-content">
-                        <div class="top-line">
-                            <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
-                            <span class="old-price">₪ 3,900</span>
-                            <span class="price">₪ 2,098</span>
+                    <div class="tab_item owl-carousel carousel-mobile">
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image sale" style="background-image: url('img/phone2.png')">
+                                <div class="phone-sale" style="background-image: url('img/ribbon.png')">
+                                    <span>25% הנחה</span>
+                                </div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>טלפון סלולרי Samsung Galaxy S8 SM-G950F 64GB</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="bottom-line">
-                            <a href="#" class="button btn-right">פרטים נוספים</a>
-                            <a href="#" class="button btn-left">הזמן עכשיו</a>
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image" style="background-image: url('img/phone.png')">
+                                <div class="label-image1" style="background-image: url('img/label1.png')"></div>
+                                <div class="label-image2" style="background-image: url('img/label2.png')"></div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image" style="background-image: url('img/phone.png')">
+                                <div class="label-image1" style="background-image: url('img/label1.png')"></div>
+                                <div class="label-image2" style="background-image: url('img/label2.png')"></div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image" style="background-image: url('img/phone.png')">
+                                <div class="label-image1" style="background-image: url('img/label1.png')"></div>
+                                <div class="label-image2" style="background-image: url('img/label2.png')"></div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image" style="background-image: url('img/phone.png')">
+                                <div class="label-image1" style="background-image: url('img/label1.png')"></div>
+                                <div class="label-image2" style="background-image: url('img/label2.png')"></div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image sale" style="background-image: url('img/phone.png')">
+                                <div class="phone-sale" style="background-image: url('img/ribbon.png')">
+                                    <span>25% הנחה</span>
+                                </div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="carousel-mobile-item">
-                    <div class="carousel-image sale" style="background-image: url('img/phone2.png')">
-                        <div class="phone-sale" style="background-image: url('img/ribbon.png')">
-                            <span>25% הנחה</span>
+                    <div class="tab_item owl-carousel carousel-mobile">
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image" style="background-image: url('img/phone.png')">
+                                <div class="label-image1" style="background-image: url('img/label1.png')"></div>
+                                <div class="label-image2" style="background-image: url('img/label2.png')"></div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-content">
-                        <div class="top-line">
-                            <h3>טלפון סלולרי Samsung Galaxy S8 SM-G950F 64GB</h3>
-                            <span class="old-price">₪ 3,900</span>
-                            <span class="price">₪ 2,098</span>
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image sale" style="background-image: url('img/phone2.png')">
+                                <div class="phone-sale" style="background-image: url('img/ribbon.png')">
+                                    <span>25% הנחה</span>
+                                </div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>טלפון סלולרי Samsung Galaxy S8 SM-G950F 64GB</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="bottom-line">
-                            <a href="#" class="button btn-right">פרטים נוספים</a>
-                            <a href="#" class="button btn-left">הזמן עכשיו</a>
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image sale" style="background-image: url('img/phone2.png')">
+                                <div class="phone-sale" style="background-image: url('img/ribbon.png')">
+                                    <span>25% הנחה</span>
+                                </div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>טלפון סלולרי Samsung Galaxy S8 SM-G950F 64GB</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="carousel-mobile-item">
-                    <div class="carousel-image sale" style="background-image: url('img/phone.png')">
-                        <div class="phone-sale" style="background-image: url('img/ribbon.png')">
-                            <span>25% הנחה</span>
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image" style="background-image: url('img/phone.png')">
+                                <div class="label-image1" style="background-image: url('img/label1.png')"></div>
+                                <div class="label-image2" style="background-image: url('img/label2.png')"></div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="carousel-content">
-                        <div class="top-line">
-                            <h3>טלפון סלולרי Samsung Galaxy J7 2016 SM-J710F</h3>
-                            <span class="old-price">₪ 3,900</span>
-                            <span class="price">₪ 2,098</span>
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image" style="background-image: url('img/phone.png')">
+                                <div class="label-image1" style="background-image: url('img/label1.png')"></div>
+                                <div class="label-image2" style="background-image: url('img/label2.png')"></div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="bottom-line">
-                            <a href="#" class="button btn-right">פרטים נוספים</a>
-                            <a href="#" class="button btn-left">הזמן עכשיו</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-mobile-item">
-                    <div class="carousel-image" style="background-image: url('img/phone.png')">
-                        <div class="label-image1" style="background-image: url('img/label1.png')"></div>
-                        <div class="label-image2" style="background-image: url('img/label2.png')"></div>
-                    </div>
-                    <div class="carousel-content">
-                        <div class="top-line">
-                            <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
-                            <span class="old-price">₪ 3,900</span>
-                            <span class="price">₪ 2,098</span>
-                        </div>
-                        <div class="bottom-line">
-                            <a href="#" class="button btn-right">פרטים נוספים</a>
-                            <a href="#" class="button btn-left">הזמן עכשיו</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-mobile-item">
-                    <div class="carousel-image" style="background-image: url('img/phone.png')">
-                        <div class="label-image1" style="background-image: url('img/label1.png')"></div>
-                        <div class="label-image2" style="background-image: url('img/label2.png')"></div>
-                    </div>
-                    <div class="carousel-content">
-                        <div class="top-line">
-                            <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
-                            <span class="old-price">₪ 3,900</span>
-                            <span class="price">₪ 2,098</span>
-                        </div>
-                        <div class="bottom-line">
-                            <a href="#" class="button btn-right">פרטים נוספים</a>
-                            <a href="#" class="button btn-left">הזמן עכשיו</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-mobile-item">
-                    <div class="carousel-image sale" style="background-image: url('img/phone.png')">
-                        <div class="phone-sale" style="background-image: url('img/ribbon.png')">
-                            <span>25% הנחה</span>
-                        </div>
-                    </div>
-                    <div class="carousel-content">
-                        <div class="top-line">
-                            <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
-                            <span class="old-price">₪ 3,900</span>
-                            <span class="price">₪ 2,098</span>
-                        </div>
-                        <div class="bottom-line">
-                            <a href="#" class="button btn-right">פרטים נוספים</a>
-                            <a href="#" class="button btn-left">הזמן עכשיו</a>
+                        <div class="carousel-mobile-item">
+                            <div class="carousel-image sale" style="background-image: url('img/phone.png')">
+                                <div class="phone-sale" style="background-image: url('img/ribbon.png')">
+                                    <span>25% הנחה</span>
+                                </div>
+                            </div>
+                            <div class="carousel-content">
+                                <div class="top-line">
+                                    <h3>LG V20 64GB H990 ליבואן רישמי אל ג'י</h3>
+                                    <span class="old-price">₪ 3,900</span>
+                                    <span class="price">₪ 2,098</span>
+                                </div>
+                                <div class="bottom-line">
+                                    <a href="#" class="button btn-right">פרטים נוספים</a>
+                                    <a href="#" class="button btn-left">הזמן עכשיו</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -298,39 +515,6 @@ get_header("front-page"); ?>
         </div>
     </div>
     <div class="double-section">
-        <div class="left-block" style="background-image: url('img/bg.png')">
-            <div class="carousel-wrap">
-                <div class="carousel-title">
-                    <h3>לקוחות ממליצים</h3>
-                </div>
-                <div class="owl-carousel carousel-reviews" style="background-image: url('img/quote_border.png')">
-                    <div class="carousel-reviews-item">
-                        <p>ורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם שבצק יהול, לכנוץ בעריר
-                            גק ליץ, נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן לורם איפסום דולור סיט אמט, קונסקטורר
-                            אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס
-                            אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן
-                            קוואזי במר מודוף</p>
-                        <span>אייל רחמים</span>
-                    </div>
-                    <div class="carousel-reviews-item">
-                        <p>ורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם שבצק יהול, לכנוץ בעריר
-                            גק ליץ, נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן לורם איפסום דולור סיט אמט, קונסקטורר
-                            אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס
-                            אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן
-                            קוואזי במר מודוף</p>
-                        <span>אייל רחמים</span>
-                    </div>
-                    <div class="carousel-reviews-item">
-                        <p>ורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם שבצק יהול, לכנוץ בעריר
-                            גק ליץ, נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן לורם איפסום דולור סיט אמט, קונסקטורר
-                            אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס
-                            אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן
-                            קוואזי במר מודוף</p>
-                        <span>אייל רחמים</span>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="right-block">
             <div class="container">
                 <div class="row">
@@ -365,6 +549,39 @@ get_header("front-page"); ?>
                                 </li>
                             </ul>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="left-block" style="background-image: url('img/bg.png')">
+            <div class="carousel-wrap-reviews">
+                <div class="carousel-title">
+                    <h3>לקוחות ממליצים</h3>
+                </div>
+                <div class="owl-carousel carousel-reviews" style="background-image: url('img/quote_border.png')">
+                    <div class="carousel-reviews-item">
+                        <p>ורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם שבצק יהול, לכנוץ בעריר
+                            גק ליץ, נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן לורם איפסום דולור סיט אמט, קונסקטורר
+                            אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס
+                            אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן
+                            קוואזי במר מודוף</p>
+                        <span>אייל רחמים</span>
+                    </div>
+                    <div class="carousel-reviews-item">
+                        <p>ורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם שבצק יהול, לכנוץ בעריר
+                            גק ליץ, נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן לורם איפסום דולור סיט אמט, קונסקטורר
+                            אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס
+                            אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן
+                            קוואזי במר מודוף</p>
+                        <span>אייל רחמים</span>
+                    </div>
+                    <div class="carousel-reviews-item">
+                        <p>ורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית גולר מונפרר סוברט לורם שבצק יהול, לכנוץ בעריר
+                            גק ליץ, נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן לורם איפסום דולור סיט אמט, קונסקטורר
+                            אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס
+                            אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן
+                            קוואזי במר מודוף</p>
+                        <span>אייל רחמים</span>
                     </div>
                 </div>
             </div>

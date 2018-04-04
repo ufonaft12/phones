@@ -35,7 +35,7 @@ img {
 }
 
 .page-content {
-	padding-top: 100px;
+	/*padding-top: 100px;*/
 }
 
 .col-table {
@@ -121,7 +121,7 @@ input:placeholder {
 
 @media screen and (max-width: 767px) {
 	.page-content {
-		padding-top: 66px;
+		/*padding-top: 66px;*/
 	}
 }
 
