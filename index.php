@@ -3,7 +3,7 @@ get_header("front-page"); ?>
 </div>
 
 <section class="section-main">
-    <div class="banner-wrap" style="background-image: url('img/main_banner.jpg')">
+    <div class="banner-wrap">
         <div class="container">
             <div class="row">
                 <div class="col-lg-7 col-md-12">

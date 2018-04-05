@@ -140,9 +140,19 @@ footer {
     width: 100%;
     bottom: 0;
     background-color: #fff;
-    z-index: 20; }
+    z-index: 20;
+    border-top: 1px solid #d4dade; }
     footer .mobile-bottom-line .col-6 {
-      padding: 0 7px; }
+      position: relative; }
+      footer .mobile-bottom-line .col-6:first-child:before {
+        content: '';
+        display: block;
+        height: 100%;
+        width: 1px;
+        background-color: #d4dade;
+        position: absolute;
+        left: 0;
+        bottom: 0; }
     footer .mobile-bottom-line .footer-column {
       padding: 15px 0;
       text-align: center; }
@@ -153,17 +163,15 @@ footer {
         text-decoration: none;
         font-size: 16px;
         padding-right: 28px; }
-      footer .mobile-bottom-line .footer-column.right-column {
-        border-right: 1px solid #d4dade; }
-        footer .mobile-bottom-line .footer-column.right-column a:before {
-          content: '';
-          display: inline-block;
-          background-image: url("../img/whats_app.png");
-          width: 20px;
-          height: 20px;
-          position: absolute;
-          right: 0;
-          top: 1px; }
+      footer .mobile-bottom-line .footer-column.right-column a:before {
+        content: '';
+        display: inline-block;
+        background-image: url("../img/whats_app.png");
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 0;
+        top: 1px; }
       footer .mobile-bottom-line .footer-column.left-column a:before {
         content: '';
         display: inline-block;
@@ -237,6 +245,8 @@ footer {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 1024px) {
+  header .bottom-line .col-logo {
+    margin-left: 0; }
   .section-main .banner-wrap .container .banner-block h1 {
     font-size: 60px; }
   .section-main .banner-wrap .container .banner-block h2 {
@@ -291,11 +301,11 @@ footer {
             content: '';
             display: block;
             height: 1px;
-            width: 113%;
+            width: 130%;
             background-color: #d4dade;
             position: absolute;
             bottom: 0;
-            right: -10px; }
+            right: -25px; }
         .section-main .container-fluid.brand-wrap .brand-block ul li:nth-child(2) {
           border-right: 1px solid #d4dade; }
           .section-main .container-fluid.brand-wrap .brand-block ul li:nth-child(2):after {
@@ -359,7 +369,7 @@ footer {
     padding: 0; }
   footer .bottom-line {
     border-top: none;
-    margin-bottom: 54px; }
+    margin-bottom: 70px; }
     footer .bottom-line .column-center-wrap {
       display: -webkit-box;
       display: -webkit-flex;
