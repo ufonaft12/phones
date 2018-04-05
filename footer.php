@@ -253,6 +253,26 @@
                 </div>
             </div>
         </div>
+        <div class="mobile-bottom-line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="footer-column left-column">
+                            <a href="">
+                                <span>שלחו הודעה</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="footer-column right-column">
+                            <a href="">
+                                <span>שלחו הודעה</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </footer>
 

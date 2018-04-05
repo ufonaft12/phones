@@ -24,7 +24,7 @@
 }
 
 p,a,btn,h1,h2,h3,h4,h5,h6 {
-	font-family: 'almoni-dl', sans-serif;
+	font-family: 'rubik-ex', sans-serif;
 	text-align: right;
 }
 
@@ -56,31 +56,35 @@ img {
 }
 
 *::-webkit-input-placeholder {
-	color: #afb8bf;
+	color: #fff!important;
 	opacity: 1; }
 
 *:-moz-placeholder {
-	color: #afb8bf;
+	color: #fff!important;
 	opacity: 1; }
 
 *::-moz-placeholder {
-	color: #afb8bf;
+	color: #fff!important;
 	opacity: 1; }
 
 *:-ms-input-placeholder {
-	color: #afb8bf;
+	color: #fff!important;
 	opacity: 1; }
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-	color: #afb8bf; }
+	color: #fff!important; }
 
 body input:required:valid,
 body textarea:required:valid {
-	color: #afb8bf; }
+	color: #fff!important; }
 
 body {
 	margin: 0;
+}
+
+body {
+	font-family: "rubik-ex", sans-serif;
 }
 
 section, div {

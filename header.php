@@ -19,6 +19,7 @@ function get_header($page_type) { ?>
 	<script type='text/javascript' src='/inc/js/jquery-migrate.min.js?ver=1.4.1'></script>
 	<script type='text/javascript' src='/inc/js/bootstrap.min.js?ver=4.0.0'></script>
     <script type='text/javascript' src='/inc/js/owl.carousel.min.js'></script>
+    <script type='text/javascript' src='/inc/js/equalheights.js'></script>
 
 	<!--FONTS-->
 	<link rel='stylesheet' id='fontawesome-css'  href='inc/css/fontawesome-all.min.css?ver=5.0.7' type='text/css' media='all' />

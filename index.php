@@ -32,42 +32,42 @@ get_header("front-page"); ?>
                             <li>
                                 <a href="#">
                                     <span class="brand-icon" style="background-image: url('img/iphone.png')"></span>
-                                    <span>תיקון</span>
+                                    <span class="text">תיקון</span>
                                     <span class="link">אפל אייפון</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                     <span class="brand-icon" style="background-image: url('img/galaxy.png')"></span>
-                                    <span>תיקון</span>
+                                    <span class="text">תיקון</span>
                                     <span class="link">סמסונג גאלקסי</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                     <span class="brand-icon" style="background-image: url('img/lg.png')"></span>
-                                    <span>תיקון</span>
+                                    <span class="text">תיקון</span>
                                     <span class="link">LG</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                     <span class="brand-icon" style="background-image: url('img/xiaomi.png')"></span>
-                                    <span>תיקון</span>
+                                    <span class="text">תיקון</span>
                                     <span class="link">שיאומי</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                     <span class="brand-icon" style="background-image: url('img/meizu.png')"></span>
-                                    <span>תיקון</span>
+                                    <span class="text">תיקון</span>
                                     <span class="link">מייזו</span>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                     <span class="brand-icon" style="background-image: url('img/more.png')"></span>
-                                    <span>תיקון</span>
+                                    <span class="text">תיקון</span>
                                     <span class="link">מכשירים אחרים</span>
                                 </a>
                             </li>
@@ -557,6 +557,9 @@ get_header("front-page"); ?>
             <div class="carousel-wrap-reviews">
                 <div class="carousel-title">
                     <h3>לקוחות ממליצים</h3>
+                    <div class="quotes" style="background-image: url(img/quote.png)">
+                        <span></span>
+                    </div>
                 </div>
                 <div class="owl-carousel carousel-reviews" style="background-image: url('img/quote_border.png')">
                     <div class="carousel-reviews-item">

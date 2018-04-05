@@ -527,6 +527,27 @@
 .lnr-pointer-left:before {
   content: "\e8a9"; }
 
+@font-face {
+  font-family: "rubik-ex";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../inc/fonts/rubik-regular/Rubik-Regular.eot");
+  src: url("../inc/fonts/rubik-regular/Rubik-Regular.eot?#iefix") format("embedded-opentype"), url("../inc/fonts/rubik-regular/Rubik-Regular.woff") format("woff"), url("../inc/fonts/rubik-regular/Rubik-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "rubik-ex";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../inc/fonts/rubik-bold/Rubik-Bold.eot");
+  src: url("../inc/fonts/rubik-bold/Rubik-Bold.eot?#iefix") format("embedded-opentype"), url("../inc/fonts/rubik-bold/Rubik-Bold.woff") format("woff"), url("../inc/fonts/rubik-bold/Rubik-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "rubik-ex";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../inc/fonts/Rubik-Light.eot");
+  src: url("../inc/fonts/Rubik-Light.eot?#iefix") format("embedded-opentype"), url("../inc/fonts/Rubik-Light.woff") format("woff"), url("../inc/fonts/Rubik-Light.ttf") format("truetype"); }
+
 header .top-line {
   overflow: hidden;
   padding: 10px 0;
@@ -548,7 +569,7 @@ header .top-line {
       header .top-line .search-form-wrap .input-group span.input-group-btn {
         position: absolute;
         left: 4px;
-        bottom: 0;
+        bottom: -1px;
         z-index: 5; }
         header .top-line .search-form-wrap .input-group span.input-group-btn .btn-default {
           background-color: transparent;
@@ -589,7 +610,7 @@ header .top-line {
             opacity: .7; }
 
 header .bottom-line .col-menu {
-  width: 58%; }
+  width: 54%; }
 
 header .bottom-line .col-logo {
   margin-left: 40px; }

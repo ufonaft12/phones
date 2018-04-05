@@ -42,8 +42,8 @@ jQuery(document).ready(function($){
 		rtl: true,
 		items: 5,
         loop: true,
-		autoplay: true,
-        autoplayTimeout: 7000,
+		// autoplay: true,
+        // autoplayTimeout: 7000,
         nav: true,
 		dots: false,
         smartSpeed: 700,
@@ -73,6 +73,18 @@ jQuery(document).ready(function($){
         smartSpeed: 700
     });
 
+    function onResize() {
+        $('.carousel-mobile-item .carousel-content .top-line').equalHeights();
+	}onResize();
+    window.onresize = function () {onResize()};
+
+    $(window).scroll(function () {
+    	if ($(this).scrollTop() > $(this).height()) {
+    		$('.top').addClass('active');
+		} else {
+            $('.top').removeClass('active');
+		}
+	});
     $('.top').click(function () {
 		$('html, body').stop().animate({scrollTop: 0}, 'slow');
     })
