@@ -531,22 +531,22 @@
   font-family: "rubik-ex";
   font-weight: normal;
   font-style: normal;
-  src: url("../inc/fonts/rubik-regular/Rubik-Regular.eot");
-  src: url("../inc/fonts/rubik-regular/Rubik-Regular.eot?#iefix") format("embedded-opentype"), url("../inc/fonts/rubik-regular/Rubik-Regular.woff") format("woff"), url("../inc/fonts/rubik-regular/Rubik-Regular.ttf") format("truetype"); }
+  src: url("../inc/fonts/Rubik-Regular/Rubik-Regular.eot");
+  src: url("../inc/fonts/Rubik-Regular/Rubik-Regular.eot?#iefix") format("embedded-opentype"), url("../inc/fonts/Rubik-Regular/Rubik-Regular.woff") format("woff"), url("../inc/fonts/Rubik-Regular/Rubik-Regular.ttf") format("truetype"); }
 
 @font-face {
   font-family: "rubik-ex";
   font-weight: bold;
   font-style: normal;
-  src: url("../inc/fonts/rubik-bold/Rubik-Bold.eot");
-  src: url("../inc/fonts/rubik-bold/Rubik-Bold.eot?#iefix") format("embedded-opentype"), url("../inc/fonts/rubik-bold/Rubik-Bold.woff") format("woff"), url("../inc/fonts/rubik-bold/Rubik-Bold.ttf") format("truetype"); }
+  src: url("../inc/fonts/Rubik-Bold/Rubik-Bold.eot");
+  src: url("../inc/fonts/Rubik-Bold/Rubik-Bold.eot?#iefix") format("embedded-opentype"), url("../inc/fonts/Rubik-Bold/Rubik-Bold.woff") format("woff"), url("../inc/fonts/Rubik-Bold/Rubik-Bold.ttf") format("truetype"); }
 
 @font-face {
   font-family: "rubik-ex";
   font-weight: 300;
   font-style: normal;
-  src: url("../inc/fonts/Rubik-Light.eot");
-  src: url("../inc/fonts/Rubik-Light.eot?#iefix") format("embedded-opentype"), url("../inc/fonts/Rubik-Light.woff") format("woff"), url("../inc/fonts/Rubik-Light.ttf") format("truetype"); }
+  src: url("../inc/fonts/Rubik-Light/Rubik-Light.eot");
+  src: url("../inc/fonts/Rubik-Light/Rubik-Light.eot?#iefix") format("embedded-opentype"), url("../inc/fonts/Rubik-Light/Rubik-Light.woff") format("woff"), url("../inc/fonts/Rubik-Light/Rubik-Light.ttf") format("truetype"); }
 
 header .top-line {
   overflow: hidden;
